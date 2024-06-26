@@ -6,12 +6,16 @@
     },
     "routes": [
         {
-            "src": "/build/(.*)",
-            "dest": "/public/build/"
+            "src": "/img/(.*)",
+            "dest": "/public/img/"
         },
         {
-            "src": "/resources/(.*)",
-            "dest": "/public/resources/"
+            "src": "/css/(.*)",
+            "dest": "/public/css/"
+        },
+        {
+            "src": "/js/(.*)",
+            "dest": "/public/js/"
         },
         {
             "src": "/favicon/(.*)",

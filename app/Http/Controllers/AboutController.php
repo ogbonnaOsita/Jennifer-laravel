@@ -15,6 +15,6 @@ class AboutController extends Controller
     {
         $about = About::get()->first();
         $socials = Social::get()->first();
-        return view('about', compact('about', 'social'));
+        return view('about', compact('about', 'socials'));
     }
 }
